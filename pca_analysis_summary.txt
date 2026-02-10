@@ -1,0 +1,48 @@
+
+CUSTOMER PURCHASE BEHAVIOR - PCA ANALYSIS SUMMARY
+================================================================================
+
+1. DATASET INFORMATION
+   - Total Customers Analyzed: 10
+   - Original Features: 4
+   - Features: Time_spent, Clicks, Product_Views, Purchase_Frequency
+
+2. DIMENSIONALITY REDUCTION RESULTS
+   - Principal Components Generated: 4
+   - Optimal Components (80% variance): 1
+   - Data Reduction: 4 → 1 dimensions
+   - Compression Ratio: 75.0%
+
+3. VARIANCE EXPLAINED
+   PC1: 99.30% (Cumulative: 99.30%)
+   PC2: 0.58% (Cumulative: 99.88%)
+   PC3: 0.09% (Cumulative: 99.98%)
+   PC4: 0.02% (Cumulative: 100.00%)
+
+4. KEY INSIGHTS
+
+   a) Most Important Component (PC1):
+      - Explains 99.30% of total variance
+      - Represents the primary pattern in customer behavior
+      
+   b) Feature Importance in PC1:
+      • Clicks: 0.5013
+      • Product_Views: 0.5013
+      • Time_spent: 0.4997
+      • Purchase_Frequency: 0.4978
+
+   c) Interpretation:
+      - The features with highest absolute loadings in PC1 are the most
+        influential in explaining customer purchase patterns
+      - Positive loadings indicate features that increase together
+      - Negative loadings indicate inverse relationships
+
+5. RECOMMENDATIONS
+   - Use PC1 and PC2 (if needed) for customer segmentation
+   - Focus on features with highest loadings for business decisions
+   - The reduced dimensions can be used for clustering or classification
+   - Dimensionality reduction achieved: 1 components capture
+     99.3% of information
+
+================================================================================
+Analysis completed successfully!
