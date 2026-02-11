@@ -1,0 +1,6 @@
+Patient ID,Glucose Level (mg/dL),Age,"Label (1=Disease, 0=Healthy)"
+101,145,58,1
+102,90,25,0
+103,110,45,0
+104,180,62,1
+105,95,30,0
